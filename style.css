@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, div, ul, ol, li, dl, dt, dd, form, fieldset, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+#left-side, #right-side {
+  padding: 70px 0 0 70px;
+}
+
+#left-side {
+  background-color: #0C5386;
+}
+
+
+#avatar {
+  background: url('images/pig.png') no-repeat;
+  height: 320px;
+  max-width: 320px;
+  border-radius: 30px;
+  
+}
+
+#avatar, #contacts, #tech-skils, #soft-skils {
+  margin-bottom: 40px;
+}
+
+#contacts h4, #tech-skils h4, #soft-skils h4 {
+  font-size: 2.25em;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #fff;
+
+}
+
+#contacts p {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#contacts a {
+  text-decoration: none;
+}
+
+#tech-skils ul li, #soft-skils ul li {
+  padding: 10px 20px;
+  margin: 0 10px 10px 0;
+  border-radius: 58px;
+  font-size: 22px;
+  font-weight: 700;
+  color:#0C5386;
+  background-color: #fff;
+  list-style-type: none;
+
+}
+
+#skils {
+  max-width: 360px;
+  
+}
+
+#position {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0C5386;
+  margin-bottom: 20px;
+}
+
+#name {
+  font-size: 48px;
+  font-weight: 800;
+  color: #0C5386;
+  margin-bottom: 20px;
+
+}
+
+#description {
+  font-size: 1.125em;
+  font-weight: 500;
+  margin-bottom: 40px;
+  max-width: 70%;
+  color: #0C5386;
+}
+
+#title-projects{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  color: #0C5386;
+}
+
+#work-experience{
+  margin-bottom: 30px;
+}
+
+#projects {
+  max-width: 80%;
+  margin-bottom: 48px;
+}
+
+#sites li {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 26px;
+  color: #0C5386;
+  list-style-type: none;
+}
+
+#sites li:last-child {
+  margin-bottom: 0;
+}
+
+#technologies li {
+  padding: 8px 16px;
+  border-radius: 58px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #0C5386;
+  color: #fff;
+
+}
+
+
+#technologies li:nth-child(2) {
+  max-width: 133px;
+}
+
+#technologies li:nth-child(3) {
+  max-width: 122px;
+}
+
+#technologies li:last-child {
+  max-width: 104px;
+  margin-left: 10px;
+}
+
+#last-position {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0C5386;
+}
+
+#company {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0C5386;
+  padding: 8px 16px;
+  border: 3px solid #0C5386;
+  border-radius: 58px;
+  margin-left: 10px;
+}
+
+#work-period {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #0C5386;
+}
+
+#duties {
+  padding-left: 15px;
+}
+
+#duties li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2a6895;
+  padding-left: 10px;
+}
+
+#duties li::marker {
+  content: url('/images/Ellipse\ 1.svg');
+}
